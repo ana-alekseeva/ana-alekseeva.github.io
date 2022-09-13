@@ -192,10 +192,10 @@ h5 {
   font-size: 1.25rem;
 }
 a {
-  color: #bd1550;
+  color: #b90808;
 }
 a:hover {
-  color: #e93675;
+  color: #b90808;
 }
 .lead {
   font-weight: 300;
@@ -307,18 +307,18 @@ img {
   transition-duration: 0.2s;
   border: 0 none;
   padding: 12px 35px;
-  text-shadow: 0 1px 0px #780d33;
+  text-shadow: 0 1px 0px #600303;
 }
 .btn-primary {
   color: #fff;
-  background-color: #bd1550;
+  background-color: #b90808;
 }
 .btn-primary:hover,
 .btn-primary:focus,
 .btn-primary:active,
 .btn-primary.active {
   color: #fff;
-  background-color: #e61f65;
+  background-color: #b90808;
 }
 .btn-action {
   font-weight: bold;
@@ -330,8 +330,8 @@ img {
 .btn-action:focus,
 .btn-action:active,
 .btn-action.active {
-  color: #bd1550;
-  border-color: #bd1550;
+  color: #b90808;
+  border-color: #b90808;
 }
 .btn-lg {
   padding: 15px 60px;
@@ -449,8 +449,8 @@ img {
   font-size: 12px;
   font-size: 0.75rem;
   text-transform: uppercase;
-  text-shadow: 0 1px 0px #780d33;
-  background: #bd1550;
+  text-shadow: 0 1px 0px #600303;
+  background: #b90808;
   color: white;
 }
 .thumbnail img {
