@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author"      content="Sergey Pozhilov (GetTemplate.com)">
+	
+	<title>Blog | Anastasiia Alekseeva</title>
+
+	<link rel="shortcut icon" href="assets/images/gt_favicon.png">
+	
+	<!-- Bootstrap -->
+	<link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icon font -->
+	<link href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
+</head>
+<body>
+
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="1">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="assets/images/guy.jpg" alt="">
+			<span class="title">Ana's Blog</span>
+			<span class="tagline">Just for fun!</span>
+		</h1>
+	</div>
+
+	<nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
+			
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
+			
+			<div class="navbar-collapse collapse">
+				
+				<ul class="nav navbar-nav">
+					<li><a href="../index.html">Home</a></li>
+					<li><a href="../about.html">About</a></li>
+							<li><a href="../blog.html"><b>Blog</b></a></li>
+						</ul>
+				</ul>
+			
+			</div><!--/.nav-collapse -->			
+		</div>	
+	</nav>
+</header>
+
+<main id="main">
+
+	<div class="container">
+		
+		<div class="row topspace">
+			<div class="col-sm-10 col-sm-offset-1">
+															
+ 				<article class="post">
+					<header class="entry-header">
+ 						<div class="entry-meta"> 
+ 							<span class="posted-on"><time class="entry-date published" date="2022-09-16">16 September 2022</time></span>			
+ 						</div> 
+ 						<h1 class="entry-title"> Election fraud detection in 2022 regional elections</h1>
+					</header> 
+					<div class="entry-content"> 
+						<p>In this short article I compare the results of 2022 Gubernatorial elections held in 14 regions in Russia and 
+							 2021 State Duma election. </p>
+			            <h2> Udmurtia</h2>
+		
+						<p><img class="img" src="assets/images/article3/Vote_Distr_udm_state_duma.jpg" alt="results" class="center"></p>
+						<p><img class="img" src="assets/images/article3/Vote_Distr_VS_Turnout_Gubernatorial Election in Udmurtia.jpg" alt="results" class="center"></p>
+						<p>The gubernatorial election in Udmurtia was relatively competitive. The incumbent Aleksandr Brechalov 
+							(a member of the United Russia) won the quite challenging election campaign, with 64,37%. The second place was taken by
+							Aleksandr Syrov - a represantative of CPRF party (19.79%). The graphs above prove the presence of election forencics in favor of the United Russia candidate in some polling stations.
+							A small peak at 65% in the kernel density graph might be evidence of simple "drawing" the results. Besides, the high variance of votes distribution for A. Brechalov (blue curve) in contrast to
+							the green one (A. Syrov) means that Brechalov's support in the region varies significantly over the polling stations or parts of Udmurtia.
+						The graph on votes distribution depending on turnout reveals that usual administrative resource mobilization took place. Maybe, some other techniques used to increase the number of votes given to A. Brechalov. 
+					To sum up, the election forensics were present in the resent elections, but they do not seem to be ubiquitous and outrageously straghtforward, I would say, quite moderate. </p>
+						<br>
+			            <h2> Tambovskaya Oblast'</h2>
+					<p>Notably outrageous election forensics took place in Tambovskaya Oblast'. M. Egorov, the United Russia candidate, received 84.95% of votes in the election, which is the highest vote share among all regions held gubernatorial elections this year.
+						Without any comments, you can see the chaotic and unnatural curves in th graphs below, which was observed not only in the 2022 election, but in the 2021 State Duma election as well.</p>
+					<p><img class="img" src="assets/images/article3/Vote_Distr_tambov_state_duma.jpg" alt="results" class="center"></p>
+						<p><img class="img" src="assets/images/article3/Vote_Distr_VS_Turnout_Gubernatorial Election in Tambovskaza Oblast.jpg" alt="results" class="center"></p>
+					
+					
+					</div> 
+				</article><!-- #post-## -->
+
+			</div> 
+		</div> <!-- /row post  -->
+
+
+
+</main>
+
+
+
+
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
+</body>
+</html>
