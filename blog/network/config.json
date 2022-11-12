@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "DRI"
+  },
+  "text": {
+    "more": "",
+    "intro": "The posts on Twitter were retrieved via keywords search that included \"Ukraine\", \"Russia\", \"nuclear war\".\n\nThe posts are from 7 October 2022 to 16 October 2022.",
+    "title": "Network of retweets"
+  },
+  "legend": {
+    "edgeLabel": "Retweets",
+    "colorLabel": " ",
+    "nodeLabel": "Twitter Accounts"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": false,
+    "hoverBehavior": "default"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#f15000",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#f15000",
+      "labelThreshold": 5,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 10
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 0.5,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 40,
+      "minRatio": 0.75
+    }
+  }
+}
